@@ -2,15 +2,7 @@
 
 This is a silly project of mine to automate the fruit slicing game "Fruit Ninja" using computer vision techniques. The program detects fruits and bombs on the screen and performs swipe actions to slice the fruits while avoiding bomb.
 
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/SjkIzBvGCm4"
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-</iframe>
+Demo can be seen [here](https://youtu.be/SjkIzBvGCm4).
 
 The current implementation uses yolov11 and dxcam for real-time object detection and screen capturing. It can be seen on `SRC/src.py`.
 An older implementation using yolvo11, mss, and deepsort can be found in `SRC/LegacyCode.ipynb`.
