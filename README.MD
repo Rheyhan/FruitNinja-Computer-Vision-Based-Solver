@@ -1,5 +1,9 @@
 # Fruit Ninja Auto Slicer Computer Vision Approach
 
+<video width="320" height="240" controls>
+  <source src="ASSETS/Example.mp4" type="video/mp4">
+</video>
+
 This is a silly project of mine to automate the fruit slicing game "Fruit Ninja" using computer vision techniques. The program detects fruits and bombs on the screen and performs swipe actions to slice the fruits while avoiding bomb.
 
 The current implementation uses yolov11 and dxcam for real-time object detection and screen capturing. It can be seen on `SRC/src.py`.
@@ -42,7 +46,7 @@ Listed below are the datasets used:
 - [Fruit Ninja Dataset 6](https://universe.roboflow.com/ninja-yks0e/fruit-ninja-wsjef/dataset/3)
 
 During preprocessing, images were resized to a uniform size, and annotations were converted to the required format for training the object detection model.
-The unified dataset can be found [here](https://universe.roboflow.com/your-username/fruit-ninja-unified/dataset/1).
+The unified dataset can be found [here](https://drive.google.com/file/d/1hR_lQjO2idVOld7RE8u6voUqS7FgFGVm/view?usp=sharing).
 
 ## Model Training
 The object detection model was trained using the YOLOv11 architecture from Ultralytics. The training process involved the following steps:
